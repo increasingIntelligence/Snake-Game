@@ -1,0 +1,52 @@
+/* CSS for the canvas */
+#canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+  }
+  
+  /* CSS for the game controls */
+  .controls {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  /* CSS for the level selector */
+  .level-selector {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .level-selector label {
+    font-weight: bold;
+  }
+  
+  /* CSS for the score display */
+  #score {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* CSS for responsive layout */
+  @media only screen and (max-width: 600px) {
+    /* Adjust canvas size for mobile */
+    #canvas {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Additional CSS for styling can be added as per your requirements */
+  
